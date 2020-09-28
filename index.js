@@ -1,6 +1,7 @@
+
+var num = 0;
 function takeANumber( katzDeli){
-  var num = 0;
-  num++;
+num++;
   katzDeli.push(num)
   return (`Welcome you are ticket number ${num} in line.`);
   
